@@ -1,0 +1,174 @@
+@charset "utf-8";
+/*
+   sample start file for final project - educational use only
+   
+   Author:   Kenzie
+   Date:     November 15
+   
+  
+
+*/
+
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+body {
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+	background-color: #F7F2EC;
+}
+
+#container {
+    width: 930px;
+    border-width: 1px;
+    margin: 0 auto;
+    background-color: #F7F2EC;
+}
+
+
+header {
+    width: 910px;	/* reduced by 20px to accommodate shadow */
+    margin-bottom: 30px;
+    margin-top: 10px;
+    text-align: center;
+    border: 1px solid #D9CBBF;
+    box-shadow: 15px 15px 5px 0 #D9CBBF;
+    border-radius: 25px;  	
+}
+
+nav {
+    width: 200px;
+    margin: 0 5px 0 5px; 
+    padding: 25px 10px 0 10px;
+    float: left;
+    text-align: center;
+}
+
+nav ul {
+    font-weight: bold;
+    list-style: none;
+}
+
+nav ul li a {
+    background-color: #E8DDD2;
+    padding: 5px;
+    color: #665246;
+    text-decoration: none;
+    display:block;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+nav ul li a:hover {
+    background: #BEC8B7;
+    border-radius: 10px;
+    color: #392F29;
+}
+
+#main {
+    width: 446px;
+    padding: 15px 10px;
+    float: left;
+    color: #392F29;
+    border-left: 2px solid #D9CBBF;
+    border-right: 2px solid #D9CBBF;    
+    
+}
+
+#main p {
+    text-indent: 1.5em;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+figure{
+    padding-top: 30px;
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 0.85em;
+    color: #665246;
+    margin-top: 10px;
+    text-align: center;
+}
+
+aside {
+    width: 200px;
+    margin: 0 5px 0 5px;
+    padding: 10px;
+    float: right;
+    min-height: 600px;
+}
+
+aside p {
+    font-style: normal;
+    font-size: 0.9em;
+    line-height: 1.5;
+    margin-bottom: 45px;
+    color: #665246;
+}
+
+h1{
+	font-size: 2.0em;
+	text-align: center;
+    padding-bottom: 0.5em;
+	
+}
+h2 {
+    font-size: 1.4em;
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+h1, h2, h3 {
+    color: #665246;
+}
+#main h1, #main h2, #main h3 {
+    font-size: 1.5em;
+    margin-bottom: 12px;
+}
+footer {
+    width: 910px;
+    margin: 0;
+    padding: 10px;
+    background-color: #D9CBBF;
+    clear: both;
+    color: #392F29;
+    font-weight: bold;
+    text-align: center;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+
+#wrapper {
+    width: 930px;
+    margin-bottom: 10px;
+    border: 2px solid #B9A596;
+    border-radius: 25px;
+}
+
+/* navigation for footer */
+footer a:link {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: navy;
+    background-color: grey;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
