@@ -16,7 +16,7 @@
 
 body {
     font-size: 1.1em;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, "Times New Roman", serif;
 	background-color: #F7F2EC;
 }
 
@@ -170,5 +170,140 @@ footer a:visited {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+
+.logo1
+{
+    width: 100%;
+	 height: 200px;
+	 object-fit: cover;
+	 border-radius: 20px;
+}
+
+.image1
+{
+    width: 150px;
+  height: 100px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+/* SERVICES PAGE LAYOUT */
+body.services-page #wrapper {
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+body.services-page nav {
+    grid-column: 1;
+    float: none;
+    width: auto;
+}
+
+body.services-page #main {
+    grid-column: 2;
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    gap: 15px;
+    float: none;
+    width: auto;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+body.services-page footer {
+    grid-column: 1 / -1;
+}
+
+/* GREEN SERVICES BOX */
+
+.services-box {
+    background-color: #bec9b5;
+    border-radius: 35px;
+    padding: 20px 12px;
+    text-align: center;
+}
+
+.services-box h2 {
+    color: #4d4037;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.services-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.services-list li {
+    margin-bottom: 35px;
+    font-size: 14px;
+    color: #392F29;
+}
+
+.services-list li::before {
+    content: "\1F43E";
+    display: inline;
+    margin-right: 10px;
+}
+
+/* PRICING TABLE*/
+
+.pricing-box {
+    width: 100%;
+    min-width: 0;
+}
+
+.pricing-table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #4d4037;
+}
+
+.pricing-table th {
+    background-color: #bec9b5;
+    color: white;
+    padding: 15px 5px;
+    border: 1px solid #555;
+    font-size: 16px;
+}
+
+.pricing-table td {
+background-color: #f7f2eb;
+border: 1px solid #555;
+padding: 15px 5px;
+text-align: center;
+font-size: 13px;
+}
+
+/* BOOK APPOINTMENT BUTTON */
+.pricing-box {
+    text-align: center;
+}
+
+.book-appointment {
+    display: inline-block;
+    background-color: #E8DDD2;
+    color: #392F29;
+    padding: 12px 35px;
+    margin-top: 20px;
+    border: 2px solid #665246;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+.book-appointment::before {
+    content: "\1F43E";
+    margin-right: 10px;
+}
+ 
+.book-appointment:hover {
+    background-color: #BEC8B7;
+    color: #392F29;
 }
 
